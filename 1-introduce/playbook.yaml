@@ -1,0 +1,14 @@
+---
+- hosts: "db"
+  become: yes
+  tasks:
+    - debug:
+        msg: "deploy db"
+
+- hosts: "app"
+  become: yes
+  tasks:
+    - debug:
+        msg: "deploy app"
+
+        
