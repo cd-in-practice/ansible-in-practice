@@ -3,7 +3,7 @@
   become: yes
   tasks:
     - debug:
-        msg: "deploy db"
+        msg: "deploy app"
 
 
 - hosts: "db"
