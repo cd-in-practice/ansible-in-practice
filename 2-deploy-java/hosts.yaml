@@ -5,10 +5,7 @@ all:
   children:
     db:
       hosts:
-        192.168.51.10:
+        192.168.51.100:
     app:
       hosts:
-        192.168.51.100:
-      vars:
-        ansible_ssh_user: vagrant
-        ansible_ssh_pass: vagrant
+        192.168.51.10:

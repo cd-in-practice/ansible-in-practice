@@ -1,5 +1,5 @@
 ## 任务列表
-1. 执行 `ansible-playbook -i hosts playbook.yml` 成功
+1. 执行 `ansible-playbook -i hosts.yaml playbook.yaml` 成功
 2. 创建用户 apps 及用户组 apps：
     * user 模块: https://docs.ansible.com/ansible/latest/modules/user_module.html
     * group 模块: https://docs.ansible.com/ansible/latest/modules/group_module.html
